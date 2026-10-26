@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Drip</title>
+  <link rel="stylesheet" href="../shared/theme.css">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="top">
+    <img class="mascot" src="../../icons/mascot.svg" alt="" width="44" height="52">
+    <div class="brand">
+      <h1>Drip</h1>
+      <p>Your water reminder buddy</p>
+    </div>
+    <label class="switch" title="Turn reminders on or off">
+      <input type="checkbox" id="enabled" aria-label="Reminders on">
+      <span class="track"></span>
+    </label>
+  </header>
+
+  <section class="card timer" id="timerCard">
+    <div class="ring" id="ring" aria-hidden="true">
+      <svg viewBox="0 0 120 120">
+        <circle class="ring-bg" cx="60" cy="60" r="52"></circle>
+        <circle class="ring-fg" id="ringFg" cx="60" cy="60" r="52"></circle>
+      </svg>
+      <span class="ring-drop">💧</span>
+    </div>
+    <div class="timer-text">
+      <p class="label" id="timerLabel">Next sip in</p>
+      <p class="countdown" id="countdown">--:--</p>
+      <p class="meta" id="timerMeta"></p>
+    </div>
+  </section>
+
+  <section class="card today">
+    <div class="row">
+      <div>
+        <p class="label">Today</p>
+        <p class="big"><span id="todayCount">0</span> <span class="of">/ <span id="goal">8</span> glasses</span></p>
+      </div>
+      <div class="stepper">
+        <button class="btn small" id="minus" aria-label="Remove a glass">−</button>
+        <button class="btn small primary" id="plus" aria-label="Add a glass">+ 1 glass</button>
+      </div>
+    </div>
+    <div class="pips" id="pips" aria-hidden="true"></div>
+    <div class="week" id="week" aria-label="Last 7 days"></div>
+  </section>
+
+  <section class="actions">
+    <button class="btn primary" id="remindNow">Remind me now</button>
+    <button class="btn" id="pauseBtn" aria-expanded="false">Pause ▾</button>
+  </section>
+  <section class="pause-menu" id="pauseMenu" hidden>
+    <button class="btn small" data-pause="30">30 min</button>
+    <button class="btn small" data-pause="60">1 hour</button>
+    <button class="btn small" data-pause="120">2 hours</button>
+    <button class="btn small" data-pause="tomorrow">Until tomorrow</button>
+  </section>
+
+  <footer class="foot">
+    <button class="link" id="openOptions">⚙ Settings</button>
+    <span class="hint" id="hint"></span>
+  </footer>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
