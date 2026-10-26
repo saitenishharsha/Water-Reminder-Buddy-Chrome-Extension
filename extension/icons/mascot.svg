@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 260">
+  <defs>
+    <radialGradient id="b" cx="38%" cy="40%" r="72%">
+      <stop offset="0%" stop-color="#d4f4ff"/>
+      <stop offset="42%" stop-color="#66c6ff"/>
+      <stop offset="100%" stop-color="#1d7fdc"/>
+    </radialGradient>
+    <linearGradient id="w" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8ad9ff"/>
+      <stop offset="100%" stop-color="#2a95ee"/>
+    </linearGradient>
+  </defs>
+  <g fill="#2c8be4" stroke="#1667b8" stroke-width="3">
+    <ellipse cx="84" cy="238" rx="19" ry="11"/>
+    <ellipse cx="136" cy="238" rx="19" ry="11"/>
+  </g>
+  <path d="M42 172 Q 22 170 16 146" fill="none" stroke="#2c8be4" stroke-width="13" stroke-linecap="round"/>
+  <circle cx="16" cy="144" r="9" fill="#3b98ea" stroke="#1667b8" stroke-width="3"/>
+  <path d="M110 18 C 128 52, 188 102, 188 160 A 78 78 0 0 1 32 160 C 32 102, 92 52, 110 18 Z" fill="url(#b)" stroke="#1667b8" stroke-width="4" stroke-linejoin="round"/>
+  <ellipse cx="68" cy="120" rx="10" ry="23" transform="rotate(26 68 120)" fill="#fff" opacity=".55"/>
+  <circle cx="86" cy="82" r="6" fill="#fff" opacity=".55"/>
+  <g fill="#fff" stroke="#1667b8" stroke-width="3">
+    <ellipse cx="84" cy="148" rx="17" ry="21"/>
+    <ellipse cx="136" cy="148" rx="17" ry="21"/>
+  </g>
+  <g fill="#142544">
+    <ellipse cx="88" cy="152" rx="9.5" ry="12"/>
+    <ellipse cx="132" cy="152" rx="9.5" ry="12"/>
+  </g>
+  <g fill="#fff">
+    <circle cx="92" cy="146" r="4"/><circle cx="136" cy="146" r="4"/>
+    <circle cx="85" cy="158" r="2"/><circle cx="129" cy="158" r="2"/>
+  </g>
+  <g fill="#ff8fb3" opacity=".65">
+    <ellipse cx="63" cy="178" rx="12" ry="7"/>
+    <ellipse cx="157" cy="178" rx="12" ry="7"/>
+  </g>
+  <path d="M97 180 Q 110 195 123 180" fill="none" stroke="#142544" stroke-width="5" stroke-linecap="round"/>
+  <path d="M178 172 Q 196 172 200 160" fill="none" stroke="#2c8be4" stroke-width="13" stroke-linecap="round"/>
+  <rect x="186" y="92" width="30" height="68" rx="9" fill="#e1f6ff" stroke="#4f86b3" stroke-width="3"/>
+  <rect x="189" y="110" width="24" height="47" rx="5" fill="url(#w)"/>
+  <rect x="186" y="122" width="30" height="12" fill="#fff" opacity=".75"/>
+  <rect x="191" y="98" width="4" height="54" rx="2" fill="#fff" opacity=".7"/>
+  <rect x="195" y="82" width="12" height="12" rx="2" fill="#d9eefc" stroke="#4f86b3" stroke-width="2.5"/>
+  <rect x="192" y="72" width="18" height="12" rx="4" fill="#ff6b8b" stroke="#c94464" stroke-width="2.5"/>
+  <circle cx="200" cy="158" r="9" fill="#3b98ea" stroke="#1667b8" stroke-width="3"/>
+</svg>
